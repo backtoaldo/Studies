@@ -1,0 +1,214 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+    display: block;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 6%;
+    margin: 100px auto;
+  }
+
+/* Para saber sobre diferentes fontes, usar o google fonts e copiar os links que sao gerados por la.*/
+/* calculo para saber porcentagem da fonte, basicamente, divide o tamanho em px por 16 e voce
+tera o resultado desse b.o - entao basicamente eu fiz aqui: 90px/16px = 562.5px
+Tambem tem como usar o em ou rem, como por exemplo 1em -> 16px = 100% = 1em,
+entao, pelos calculos, o px pode trocado por 562.5% ou 562.5em
+Importante tentar colocar em % ou em pois alguem com dificuldades com relacao ao tamanho da letra,
+podem mudar diretamente no navegador e o site vai estar responsivo a isso, ou seja, se uma pessoa
+com dificuldade para ler colocar como fonte padrao: grande, seu site estara responsivo e a letra
+mudara para grande tambem. Isso conta para aumentar rankeamento de sites.
+Sempre conferir no body se existe algum font-size ou algo do genero. */
+
+/* PARAGRAFOS, LETRAS, CABECALHO E QUALQUER COISA REFERENTE A h1, <p> e outros */
+
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /* line-height: 2; cria um espacamento entre as palavras, caso ache necessario */
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: Montserrat, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+/* COUNTEIRNERS */
+
+.div-container {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+/* IMAGENS */
+
+.personalphoto {
+  width: 20%;
+}
+
+.chillies {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* TEXTOS DE SKILLS, EXPERIENCIA E OUTROS, AQUI: */
+
+.hotwingschallange {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -webkit-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/* TUDO QUE USEI MAS COM O TEMPO PAREI DE USAR, DEIXADO AQUI POR MOTIVOS DE ESTUDO */
+
+/* div{
+  background-color: #A6F6F1;
+} */
+
+/* .pro{
+  text-decoration: underline;
+}
+/* 47. The Box Model of Website Styling
+div{
+  background-color: #A6F6F1;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  width: 200px
+  height: 200px
+  border: solid 10px;
+  padding: 20px;
+}
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left" 260px;
+}
+
+.bottom-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin-left: 500px;
+} */
